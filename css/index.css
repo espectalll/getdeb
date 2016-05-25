@@ -1,15 +1,36 @@
-body {
-    position: absolute;
-    left: 50%; top: 50%;
-    margin: 0; padding: 0;
-    transform: translate(-50%, -50%);
-    width: 512px;
-    font-family: Cantarell, Helvetica;
-    border-left: 2px solid;
-    border-right: 2px solid;
+@font-face {
+    font-family: 'Cantarell';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Cantarell Regular'),
+         local('Cantarell-Regular'),
+         url('{{ site.url }}/otf/Cantarell-Regular.otf') format("opentype");
+}
+@font-face {
+    font-family: 'Cantarell';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Cantarell Bold'),
+         local('Cantarell-Bold'),
+         url('{{ site.url }}/otf/Cantarell-Bold.otf') format("opentype");
 }
 
-h1, h2 {
+body {
+    font-family: 'Cantarell';
+}
+body, header > p {
+    margin: 0 auto; padding: 0;
+    width: 80%;
+    max-width: 1024px;
+}
+
+header {
     text-align: center;
-    margin: 0 64px;    
+}
+header > p {
+    font-size: 22px;
+}
+header > img {
+    width: 50%;
+    max-width: 512px;
 }
