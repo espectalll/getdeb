@@ -1,0 +1,15 @@
+body {
+    position: absolute;
+    left: 50%; top: 50%;
+    margin: 0; padding: 0;
+    transform: translate(-50%, -50%);
+    width: 512px;
+    font-family: Cantarell, Helvetica;
+    border-left: 2px solid;
+    border-right: 2px solid;
+}
+
+h1, h2 {
+    text-align: center;
+    margin: 0 64px;    
+}
