@@ -1,0 +1,7 @@
+title: Get Debian!
+host: espectalll.github.io
+description: A quick start guide for getting newbies into Debian safe and sound
+baseurl: "/getdeb"
+url: "https://espectalll.github.io/getdeb"
+markdown: kramdown
+
